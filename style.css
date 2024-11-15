@@ -1,0 +1,233 @@
+*{margin: 0; padding: 0;}
+
+@font-face {
+    font-family: UbuntuSans-ExtraBold;
+    src: url("/meu-projeto-bambinodoces/fontes/UbuntuSans-ExtraBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: UbuntuSans-Medium;
+    src: url("/meu-projeto-bambinodoces/fontes/UbuntuSans-Medium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: UbuntuSans-Thin;
+    src: url("/meu-projeto-bambinodoces/fontes/UbuntuSans-Thin.ttf") format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #54392A;
+    margin-bottom: 68px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+
+.topo {
+    background-color: #B0829B;
+    display: flex;
+    height: 59px;
+    display: block; /* Garante que a imagem ocupe toda a largura disponível */
+    position: relative; /* Permite posicionar elementos filhos de forma absoluta */
+    z-index: 1;
+}
+
+    nav {
+        position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
+        top: 50%; /* Centraliza verticalmente o menu */
+        left: 50%; /* Centraliza horizontalmente o menu */
+        transform: translate(-50%, -50%); /* Ajusta a centralização */
+        z-index: 2; /* Garante que o menu fique acima da imagem */
+    }
+
+        nav li {
+            list-style-type: none;
+            display: inline;
+            word-spacing: 24px;
+        }
+
+            li a {
+                color: #54392A;
+                text-decoration-line: none;
+                font: 20px UbuntuSans-ExtraBold;
+            }
+
+.elipse {
+    background-color: #B0829B;
+    width: 509px;
+    height: 351px;
+    border-radius: 50%;
+    
+    position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
+    top: 13%; /* Centraliza verticalmente o menu */
+    left: 50%; /* Centraliza horizontalmente o menu */
+    transform: translate(-50%, -50%); /* Ajusta a centralização */
+    z-index: -1; /* Garante que o menu fique acima da imagem */
+}
+
+    .elipse img {
+        position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
+        top: 60%; /* Centraliza verticalmente o menu */
+        left: 50%; /* Centraliza horizontalmente o menu */
+        transform: translate(-50%, -50%); /* Ajusta a centralização */
+        z-index: 3; /* Garante que o menu fique acima da imagem */
+    }
+
+.home {
+    max-width: 100%;
+    margin: 343px 422px 253px 422px;
+}
+
+    #doces-G, #doces-M, #doces-P {
+        border-radius: 50%;
+        border: solid 10px #B0829B;
+    }
+
+        #doces-G {
+            width: 352px;
+            position: absolute;
+            top: 402px;
+            left: 423px;
+            z-index: 6;
+        }
+
+        #doces-M {
+            width: 284px;
+            position: absolute;
+            top: 565px;
+            left: 675px;
+            z-index: 4;
+        }
+
+        #doces-P {
+            width: 165px;
+            position: absolute;
+            top: 707px;
+            left: 517px;
+            z-index: 6;
+        }
+
+.texto-home {
+    font: 40px UbuntuSans-Thin;
+    color: #B0829B;
+    width: 462px;
+    margin: 499px 0px 0px 613px;
+}
+
+    #bambino-doces {
+        font: 48px UbuntuSans-ExtraBold;
+    }
+
+    #descubra {
+        font: 40px UbuntuSans-Medium;
+        color: #B0829B;
+        padding-top: 56px;
+    }
+
+        .texto-home img {
+            position: absolute;
+            top: 760px;
+            left: 1335px;
+            z-index: 7;
+        }
+
+.sobre p {
+    font: 48px UbuntuSans-Thin;
+    color: #B0829B;
+    width: 610px;
+    position: absolute;
+    top: 1216px;
+    left: 423px;
+    z-index: 8;
+}
+
+    #sobre-voce , #convencer, #cta{
+        font-family: UbuntuSans-ExtraBold;
+    }
+
+    .sobre img {
+        border-radius: 50%;
+        border: solid 10px #B0829B;
+        width: 385px;
+
+        position: absolute;
+        top: 1125px;
+        left: 1113px;
+        z-index: 9;
+    }
+  
+    #p2 {
+        position: absolute;
+        top: 1642px;
+        left: 872px;
+        z-index: 10;
+    }
+
+    #img2 {
+        position: absolute;
+        top: 1596px;
+        left: 459px;
+        width: 323px;
+    }
+
+.contato p {
+    font: 48px UbuntuSans-Thin;
+    color: #B0829B;
+    width: 800px;
+    position: absolute;
+    top: 2167px;
+    left: 559px;
+    z-index: 11;
+}    
+
+button {
+    width: 153px;
+    height: 58px;
+    border-radius: 30px;
+    position: absolute;
+    top: 2399px;
+    left: 780px;
+    color: #fff;
+    font: 18px UbuntuSans-Medium;
+    border-style: none;
+    text-shadow: 2px 2px 2px #291c14be;
+}
+
+    #wpp:hover {
+        background-color: #01703c90;
+    }
+    #insta:hover {
+        background-color: #961c8290;
+    }
+
+    #wpp {
+        position: absolute;
+        top: 2399px;
+        left: 984px;
+        background-color: #01703C;
+        box-shadow: 5px 5px 5px #012c1896;
+    }
+
+    #insta {
+        background-color: #961c81;
+        box-shadow: 5px 5px 5px #4d0e4296;
+    }    
+        
+
+.footer {
+    background-color: #B0829B;
+    width: 100%;
+    height: 68px;
+    position: absolute;
+    top: 2627px;
+    left: 0px;
+}    

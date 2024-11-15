@@ -1,0 +1,207 @@
+*{margin: 0; padding: 0;}
+
+@font-face {
+    font-family: UbuntuSans-ExtraBold;
+    src: url("/meu-projeto-bambinodoces/fontes/UbuntuSans-ExtraBold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: UbuntuSans-Medium;
+    src: url("/meu-projeto-bambinodoces/fontes/UbuntuSans-Medium.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: UbuntuSans-Thin;
+    src: url("/meu-projeto-bambinodoces/fontes/UbuntuSans-Thin.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: UbuntuSans-Light;
+    src: url("/meu-projeto-bambinodoces/fontes/UbuntuSans-Light.ttf") format('truetype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #54392A;
+}
+
+.topo {
+    background-color: #B0829B;
+    height: 22px;
+    position: relative; /* Permite posicionar elementos filhos de forma absoluta */
+    z-index: 1;
+}
+
+nav {
+    display: block;
+    position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
+    top: 59px; /* Centraliza verticalmente o menu */
+    left: 1218px; /* Centraliza horizontalmente o menu */
+    z-index: 2; /* Garante que o menu fique acima da imagem */
+}
+
+    nav li {
+        list-style-type: none;
+        display: inline;
+        word-spacing: 24px;
+    }
+
+        li a {
+            color: #B0829B;
+            text-decoration-line: none;
+            font: 24px UbuntuSans-ExtraBold;
+        }
+
+.elipse {
+    background-color: #B0829B;
+    width: 353px;
+    height: 259px;
+    border-radius: 50%;
+                
+    position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
+    top: -5%; /* Centraliza verticalmente o menu */
+    left: 404px; /* Centraliza horizontalmente o menu */
+    z-index: -1; /* Garante que o menu fique acima da imagem */
+}     
+
+    .elipse img {
+        width: 253px;
+        height: 137px;
+        display: block;
+        
+        position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
+        top: 80px; /* Centraliza verticalmente o menu */
+        left: 46px; /* Centraliza horizontalmente o menu */
+        z-index: 20; /* Garante que o menu fique acima da imagem */
+    }
+
+.aponte {
+    background-color: #B0829B;
+    width: 342px;
+    height: 45px;
+    border-radius: 50px 10px 50px 10px;
+
+    position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
+    top: 208px; /* Centraliza verticalmente o menu */
+    left: 1183px; /* Centraliza horizontalmente o menu */
+    z-index: 4; /* Garante que o menu fique acima da imagem */
+}    
+
+    .aponte h1 {
+        font: 24px UbuntuSans-ExtraBold;
+        color: #fff;
+
+        position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
+        top: 20%; /* Centraliza verticalmente o menu */
+        left: 30px; /* Centraliza horizontalmente o menu */
+        z-index: 5; /* Garante que o menu fique acima da imagem */
+    }
+
+    .aponte img {
+        position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
+        top: -25%; /* Centraliza verticalmente o menu */
+        left: 261px; /* Centraliza horizontalmente o menu */
+        z-index: 6; /* Garante que o menu fique acima da imagem */
+    }
+
+#cardapio {
+    width: 1194px;
+    height: 568px;
+    
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar em múltiplas linhas */
+    justify-content: center; /* Centraliza as caixas horizontalmente */
+    align-content: flex-start;
+    gap: 58px; /* Espaçamento entre as caixas */
+
+    position: absolute;
+    top: 287px;
+    left: 50%;
+    z-index: 7;
+    transform: translate(-50%, 0%); /* Ajusta a centralização */
+}
+
+        .doce-um, .doce-dois, .doce-tres, .doce-quatro, .doce-cinco, .doce-seis, .doce-sete, .doce-oito {
+            width: 235px;
+            height: 235px;
+            border: solid 10px #B0829B;
+            display: block;
+        }
+
+        #cardapio img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+.overlay {
+    width: 820px;
+    height: 533px;
+    background-color: #b0829bee;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+
+    pointer-events: none;
+}
+
+.doce-um:hover .overlay, .doce-dois:hover .overlay, .doce-tres:hover .overlay, .doce-quatro:hover .overlay, .doce-cinco:hover .overlay, .doce-seis:hover .overlay, .doce-sete:hover .overlay, .doce-oito:hover .overlay {
+    opacity: 1;
+    pointer-events: none;
+}
+
+.img {
+    width: 311px;
+    height: 419px;
+}
+
+.overlay .img {
+    position: absolute;
+    top: 57px;
+    left: 60px;
+    z-index: 51;
+}
+
+.texto-overlay {
+        width: 329px;
+        height: 419px;
+        background-color: #d9d9d9a8;
+        position: absolute;
+        top: 57px;
+        left: 431px;
+        z-index: 52;
+
+}
+
+.texto-overlay h1 {
+    font: 32px UbuntuSans-ExtraBold;
+    color: #54392A;
+    text-align: center;
+    margin: 36px 0px 34px 0px;
+}
+
+.texto-overlay p {
+    font: 24px UbuntuSans-Light;
+    color: #54392A;
+    text-align: center;
+    margin: 0px 30px 36px 30px;
+}
+
+.footer {
+    background-color: #B0829B;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 914px;
+    left: 0px;
+    z-index: 10;
+}  
