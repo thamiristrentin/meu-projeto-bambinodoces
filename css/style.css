@@ -49,18 +49,15 @@ header {
 }
 
 .home {
-    padding: 6.68em 26.3em 15.8em 26.3em;
+    padding: 10em 26.3em 15.8em 26.3em;
     display: flex;
-    gap: 20em;
+    gap: 10em;
 }
 
 .imagens-home {
     width: 33.5em;
     display: flex;
     background-color: rebeccapurple;
-    border: solid 2px black;
-    position: relative;
-    z-index: -1;
 }
 
 .imagens-home img {
@@ -71,27 +68,35 @@ header {
 #doces-G {
     width: 22em;
     height: 22em;
-    position: absolute;
-    z-index: 2;
+    position: relative;
+    top: -6.06em;
+    z-index: 1;
 }
 
 #doces-M {
     width: 17.75em;
     height: 17.75em;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
 }
 
 #doces-P {
     width: 10.31em;
     height: 10.31em;
     position: absolute;
-    z-index: 3;
+    bottom: 12.8em;
+    left: 5.87em;
+    z-index: 2;
 }
 
 .texto-home {
     font: 40px UbuntuSans-Thin, sans-serif;
     color: #B0829B;
+    display: flex;
+}
+
+.texto-home img {
+    width: fit-content;
 }
 
     #bambino-doces {
