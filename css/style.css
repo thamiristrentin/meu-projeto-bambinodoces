@@ -1,0 +1,169 @@
+body {
+    background-color: #54392A;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+}
+
+.topo {
+    background-color: #B0829B;
+    display: flex;
+    height: 3.68em;
+}
+
+    nav {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+        nav li {
+            list-style-type: none;
+            display: inline;
+            word-spacing: 1.5em;
+        }
+
+            li a {
+                color: #54392A;
+                text-decoration-line: none;
+                font: 1.25em UbuntuSans-ExtraBold, sans-serif;
+            }
+
+.elipse {
+    background-color: #B0829B;
+    max-width: fit-content;
+    min-width: fit-content;
+    border-radius: 50%;
+    display: flex;
+    margin: 0 auto;
+    padding: 3.8rem 3.93rem 2rem 3.93rem;
+}
+
+#homesection {
+    max-width: 1920px;
+}
+
+.home {
+    padding: 6.68em 26.3em 15.8em 26.3em;
+    display: flex;
+    gap: 20em;
+}
+
+.imagens-home {
+    width: 33.5em;
+    display: flex;
+    background-color: rebeccapurple;
+    border: solid 2px black;
+    position: relative;
+    z-index: -1;
+}
+
+.imagens-home img {
+    border-radius: 50%;
+    border: solid 10px #B0829B;
+}
+
+#doces-G {
+    width: 22em;
+    height: 22em;
+    position: absolute;
+    z-index: 2;
+}
+
+#doces-M {
+    width: 17.75em;
+    height: 17.75em;
+    position: absolute;
+    z-index: 1;
+}
+
+#doces-P {
+    width: 10.31em;
+    height: 10.31em;
+    position: absolute;
+    z-index: 3;
+}
+
+.texto-home {
+    font: 40px UbuntuSans-Thin, sans-serif;
+    color: #B0829B;
+}
+
+    #bambino-doces {
+        font: 48px UbuntuSans-ExtraBold, sans-serif;
+    }
+
+    #descubra {
+        font: 40px UbuntuSans-Medium, sans-serif;
+        color: #B0829B;
+    }
+
+.sobre p {
+    font: 48px UbuntuSans-Thin, sans-serif;
+    color: #B0829B;
+    width: 610px;
+}
+
+    #sobre-voce , #convencer, #cta{
+        font-family: UbuntuSans-ExtraBold, sans-serif;
+    }
+
+    .sobre img {
+        border-radius: 50%;
+        border: solid 10px #B0829B;
+        width: 385px;
+    }
+  
+    #p2 {
+    }
+
+    #img2 {
+
+    }
+
+.contato p {
+    font: 48px UbuntuSans-Thin, sans-serif;
+    color: #B0829B;
+    width: 800px;
+
+}    
+
+button {
+    width: 153px;
+    height: 58px;
+    border-radius: 30px;
+
+    color: #fff;
+    font: 18px UbuntuSans-Medium, sans-serif;
+    border-style: none;
+    text-shadow: 2px 2px 2px #291c14be;
+}
+
+    #wpp:hover {
+        background-color: #01703c90;
+    }
+    #insta:hover {
+        background-color: #961c8290;
+    }
+
+    #wpp {
+        background-color: #01703C;
+        box-shadow: 5px 5px 5px #012c1896;
+    }
+
+    #insta {
+        background-color: #961c81;
+        box-shadow: 5px 5px 5px #4d0e4296;
+    }    
+        
+
+.footer {
+    background-color: #B0829B;
+    width: 100%;
+    height: 68px;
+}
