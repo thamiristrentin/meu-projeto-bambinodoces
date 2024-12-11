@@ -2,177 +2,177 @@ body {
     background-color: #54392A;
 }
 
+header {
+    max-width: 69.62em;
+    margin: 0 auto;
+}
+
+.elipsemenu {
+    display: flex;
+}
+
 .topo {
     background-color: #B0829B;
-    height: 22px;
-    position: relative; /* Permite posicionar elementos filhos de forma absoluta */
-    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    width: 100%;
+    height: 2rem;
 }
 
-nav {
-    display: block;
-    position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
-    top: 59px; /* Centraliza verticalmente o menu */
-    left: 1218px; /* Centraliza horizontalmente o menu */
-    z-index: 2; /* Garante que o menu fique acima da imagem */
+.menu {
+    margin-left: auto;
+    padding-top: 3.3em;
 }
 
-    nav li {
-        list-style-type: none;
-        display: inline;
-        word-spacing: 24px;
-    }
+nav ul {
+    display: flex;
+    gap: 1.5em;
+}
 
-        li a {
-            color: #B0829B;
-            text-decoration-line: none;
-            font: 24px UbuntuSans-ExtraBold, sans-serif;
-        }
+nav li {
+    list-style-type: none;
+}
+
+li a {
+    color: #B0829B;
+    text-decoration-line: none;
+    font: 1.5em UbuntuSans-ExtraBold, sans-serif;
+}
 
 .elipse {
     background-color: #B0829B;
-    width: 353px;
-    height: 259px;
+    padding: 2.3em 2.62em 1.8em 2.62em;
     border-radius: 50%;
-                
-    position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
-    top: -5%; /* Centraliza verticalmente o menu */
-    left: 404px; /* Centraliza horizontalmente o menu */
-    z-index: -1; /* Garante que o menu fique acima da imagem */
-}     
+    width: max-content;
+}
 
-    .elipse img {
-        width: 253px;
-        height: 137px;
-        display: block;
-        
-        position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
-        top: 80px; /* Centraliza verticalmente o menu */
-        left: 46px; /* Centraliza horizontalmente o menu */
-        z-index: 20; /* Garante que o menu fique acima da imagem */
-    }
+.elipse img {
+    width: 13em;
+}
+
+main {
+    max-width: 69.62em;
+    margin: 0 auto;
+}
 
 .aponte {
     background-color: #B0829B;
-    width: 342px;
-    height: 45px;
-    border-radius: 50px 10px 50px 10px;
-
-    position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
-    top: 208px; /* Centraliza verticalmente o menu */
-    left: 1183px; /* Centraliza horizontalmente o menu */
-    z-index: 4; /* Garante que o menu fique acima da imagem */
-}    
-
-    .aponte h1 {
-        font: 24px UbuntuSans-ExtraBold, sans-serif;
-        color: #fff;
-
-        position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
-        top: 20%; /* Centraliza verticalmente o menu */
-        left: 30px; /* Centraliza horizontalmente o menu */
-        z-index: 5; /* Garante que o menu fique acima da imagem */
-    }
-
-    .aponte img {
-        position: absolute; /* Permite posicionar o menu de navegação sobre a imagem */
-        top: -25%; /* Centraliza verticalmente o menu */
-        left: 261px; /* Centraliza horizontalmente o menu */
-        z-index: 6; /* Garante que o menu fique acima da imagem */
-    }
-
-#cardapio {
-    width: 1194px;
-    height: 568px;
-    
+    width: max-content;
     display: flex;
-    flex-wrap: wrap; /* Permite quebrar em múltiplas linhas */
-    justify-content: center; /* Centraliza as caixas horizontalmente */
-    align-content: flex-start;
-    gap: 58px; /* Espaçamento entre as caixas */
-
-    position: absolute;
-    top: 287px;
-    left: 50%;
-    z-index: 7;
-    transform: translate(-50%, 0%); /* Ajusta a centralização */
+    padding: 0.4em 1.8em;
+    padding-right: 5.62em;
+    border-radius: 50px 10px 50px 10px;
+    float: right;
+    position: relative;
+    right: -3em;
 }
 
-        .doce-um, .doce-dois, .doce-tres, .doce-quatro, .doce-cinco, .doce-seis, .doce-sete, .doce-oito {
-            width: 235px;
-            height: 235px;
-            border: solid 10px #B0829B;
-            display: block;
-        }
+.aponte h1 {
+    font: 1.5em UbuntuSans-ExtraBold, sans-serif;
+    color: #fff;
+}
 
-        #cardapio img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            display: block;
-        }
+.aponte img {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#cardapio {
+    padding-top: 5rem;
+    padding-bottom: 5.71em;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-columns: 14.68em;
+    gap: 3em;
+}
+
+.doce-um,
+.doce-dois,
+.doce-tres,
+.doce-quatro,
+.doce-cinco,
+.doce-seis,
+.doce-sete,
+.doce-oito {
+    min-width: 14.68em;
+    border: solid 10px #B0829B;
+}
+
+#cardapio img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
 
 .overlay {
-    width: 820px;
-    height: 533px;
+    padding: 3.75rem 3.56rem;
+    gap: 3.75em;
     background-color: #b0829bee;
+
     display: flex;
+    justify-content: center;
+    align-items: center;
+
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 50;
     opacity: 0;
-    transition: opacity 0.5s ease;
 
+
+    transition: opacity 0.5s ease;
     pointer-events: none;
 }
 
-.doce-um:hover .overlay, .doce-dois:hover .overlay, .doce-tres:hover .overlay, .doce-quatro:hover .overlay, .doce-cinco:hover .overlay, .doce-seis:hover .overlay, .doce-sete:hover .overlay, .doce-oito:hover .overlay {
+.doce-um:hover .overlay,
+.doce-dois:hover .overlay,
+.doce-tres:hover .overlay,
+.doce-quatro:hover .overlay,
+.doce-cinco:hover .overlay,
+.doce-seis:hover .overlay,
+.doce-sete:hover .overlay,
+.doce-oito:hover .overlay {
     opacity: 1;
     pointer-events: none;
 }
 
 .img {
-    width: 311px;
-    height: 419px;
-}
-
-.overlay .img {
-    position: absolute;
-    top: 57px;
-    left: 60px;
-    z-index: 51;
+    width: 19.43em;
+    height: 26.18em;
 }
 
 .texto-overlay {
-        width: 329px;
-        height: 419px;
-        background-color: #d9d9d9a8;
-        position: absolute;
-        top: 57px;
-        left: 431px;
-        z-index: 52;
-
+    width: 19.43em;
+    height: 26.18em;
+    padding: 2.25em 1.93em 0em 1.93em;
+    background-color: #d9d9d9a8;
+    text-align: center;
 }
 
 .texto-overlay h1 {
-    font: 32px UbuntuSans-ExtraBold, sans-serif;
+    font: 2em UbuntuSans-ExtraBold, sans-serif;
     color: #54392A;
-    text-align: center;
-    margin: 36px 0px 34px 0px;
 }
 
 .texto-overlay p {
-    font: 24px UbuntuSans-Light, sans-serif;
+    font: 1.5em UbuntuSans-Light, sans-serif;
     color: #54392A;
-    text-align: center;
-    margin: 0px 30px 36px 30px;
+    padding-top: 1.62em;
 }
 
 .footer {
+    font: 1.12em UbuntuSans-Medium, sans-serif;
+    color: #2e1f16;
     background-color: #B0829B;
-    width: 100%;
-    height: 2.5em;
-
-}  
+    max-width: 100%;
+    padding: 0.8em 9em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -16,23 +16,23 @@ header {
     height: 3.68em;
 }
 
-    nav {
-        display: flex;
-        align-items: center;
-        margin: 0 auto;
-    }
+nav {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
 
-        nav li {
-            list-style-type: none;
-            display: inline;
-            word-spacing: 1.5em;
-        }
+nav li {
+    list-style-type: none;
+    display: inline;
+    word-spacing: 1.5em;
+}
 
-            li a {
-                color: #54392A;
-                text-decoration-line: none;
-                font: 1.25em UbuntuSans-ExtraBold, sans-serif;
-            }
+li a {
+    color: #54392A;
+    text-decoration-line: none;
+    font: 1.25em UbuntuSans-ExtraBold, sans-serif;
+}
 
 .elipse {
     background-color: #B0829B;
@@ -44,20 +44,22 @@ header {
     padding: 3.8rem 3.93rem 2rem 3.93rem;
 }
 
-#homesection {
-    max-width: 1920px;
+#homesection,
+#sobresection,
+#contatosection {
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .home {
-    padding: 10em 26.3em 15.8em 26.3em;
+    padding-top: 12em;
     display: flex;
-    gap: 10em;
+    gap: 38.31em;
 }
 
 .imagens-home {
-    width: 33.5em;
     display: flex;
-    background-color: rebeccapurple;
+    position: relative;
 }
 
 .imagens-home img {
@@ -68,8 +70,8 @@ header {
 #doces-G {
     width: 22em;
     height: 22em;
-    position: relative;
-    top: -6.06em;
+    position: absolute;
+    top: -9.81em;
     z-index: 1;
 }
 
@@ -77,6 +79,7 @@ header {
     width: 17.75em;
     height: 17.75em;
     position: absolute;
+    left: 15.75em;
     z-index: -1;
 }
 
@@ -84,91 +87,133 @@ header {
     width: 10.31em;
     height: 10.31em;
     position: absolute;
-    bottom: 12.8em;
+    top: 9.25em;
     left: 5.87em;
     z-index: 2;
 }
 
 .texto-home {
-    font: 40px UbuntuSans-Thin, sans-serif;
+    font: 2.1em UbuntuSans-Thin, sans-serif;
     color: #B0829B;
     display: flex;
+    flex-direction: column;
 }
 
 .texto-home img {
     width: fit-content;
 }
 
-    #bambino-doces {
-        font: 48px UbuntuSans-ExtraBold, sans-serif;
-    }
-
-    #descubra {
-        font: 40px UbuntuSans-Medium, sans-serif;
-        color: #B0829B;
-    }
-
-.sobre p {
-    font: 48px UbuntuSans-Thin, sans-serif;
-    color: #B0829B;
-    width: 610px;
+.descubra {
+    display: flex;
+    padding-top: 2rem;
 }
 
-    #sobre-voce , #convencer, #cta{
-        font-family: UbuntuSans-ExtraBold, sans-serif;
-    }
+#bambino-doces {
+    font: 2.5rem UbuntuSans-ExtraBold, sans-serif;
+}
 
-    .sobre img {
-        border-radius: 50%;
-        border: solid 10px #B0829B;
-        width: 385px;
-    }
-  
-    #p2 {
-    }
+#descubra {
+    font: 2.2rem UbuntuSans-Medium, sans-serif;
+    color: #B0829B;
+}
 
-    #img2 {
 
-    }
+
+.texto-1 {
+    display: flex;
+    align-items: center;
+    padding-top: 13em;
+    gap: 4.81em;
+}
+
+.texto-2 {
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    gap: 7em;
+}
+
+.texto-1 img {
+    max-width: 24.06em;
+}
+
+.texto-2 img {
+    max-width: 20.18em;
+}
+
+.sobre img {
+    border-radius: 50%;
+    border: solid 10px #B0829B;
+}
+
+.sobre p {
+    font: 2.5em UbuntuSans-Thin, sans-serif;
+    color: #B0829B;
+    width: 38.12em;
+}
+
+#sobre-voce,
+#convencer,
+#cta {
+    font-family: UbuntuSans-ExtraBold, sans-serif;
+}
+
+
+.contato {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13rem 5rem;
+}
 
 .contato p {
-    font: 48px UbuntuSans-Thin, sans-serif;
+    font: 2.8em UbuntuSans-Thin, sans-serif;
     color: #B0829B;
-    width: 800px;
-
-}    
+}
 
 button {
-    width: 153px;
-    height: 58px;
-    border-radius: 30px;
+    padding: 1em 1.9em;
+    border-radius: 40px;
 
     color: #fff;
-    font: 18px UbuntuSans-Medium, sans-serif;
+    font: 1.12em UbuntuSans-Medium, sans-serif;
     border-style: none;
     text-shadow: 2px 2px 2px #291c14be;
 }
 
-    #wpp:hover {
-        background-color: #01703c90;
-    }
-    #insta:hover {
-        background-color: #961c8290;
-    }
+.botoes {
+    display: flex;
+    padding-top: 4.43em;
+    gap: 3.43em;
+}
 
-    #wpp {
-        background-color: #01703C;
-        box-shadow: 5px 5px 5px #012c1896;
-    }
+#wpp:hover {
+    background-color: #01703c90;
+}
 
-    #insta {
-        background-color: #961c81;
-        box-shadow: 5px 5px 5px #4d0e4296;
-    }    
-        
+#insta:hover {
+    background-color: #961c8290;
+}
+
+#wpp {
+    background-color: #01703C;
+    box-shadow: 5px 5px 5px #012c1896;
+}
+
+#insta {
+    background-color: #961c81;
+    box-shadow: 5px 5px 5px #2c082696;
+}
+
 
 .footer {
     background-color: #B0829B;
+    font: 1.12em UbuntuSans-Medium, sans-serif;
+    color: #2e1f16;
     width: 100%;
-    height: 68px;
+    padding: 1.5em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
