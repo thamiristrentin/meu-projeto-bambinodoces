@@ -1,0 +1,44 @@
+@media screen (max-width: 480px;) {
+    #homesection,
+    #sobresection,
+    #contatosection {
+    max-width: 350px;
+    }
+    
+    .elipse img {
+        width: 20em;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .texto-1, .texto-2 {
+        flex-direction: column;
+    }
+}
+
+
+@media screen (max-width: 768px;) {
+    
+}
+
+
+@media screen (max-width: 992px;) {
+    
+}
+
+
+@media screen (max-width: 1200px;) {
+    
+}
+
+
+@media screen (max-width: 1600px;) {
+    
+}
+
+
+@media screen (max-width: 1900px;) {
+    
+}

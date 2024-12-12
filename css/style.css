@@ -36,10 +36,8 @@ li a {
 
 .elipse {
     background-color: #B0829B;
-    max-width: fit-content;
-    min-width: fit-content;
     border-radius: 50%;
-    display: flex;
+    width: max-content;
     margin: 0 auto;
     padding: 3.8rem 3.93rem 2rem 3.93rem;
 }
