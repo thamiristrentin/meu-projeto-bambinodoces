@@ -1,28 +1,42 @@
-@media screen (max-width: 480px;) {
+@media screen and (max-width: 480px) {
+    .elipse {
+        padding: 1.4rem 1rem 1rem 1rem;
+    }
+    
+    .elipse img {
+        max-width: 6em;
+    }
+
+    .menu {
+        margin: 0 auto;
+        padding-top: 3em;
+    }
+
+    nav ul {
+        gap: 1em;
+    }
+
+    li a {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
     
 }
 
 
-@media screen (max-width: 768px;) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
     
 }
 
 
-@media screen (max-width: 992px;) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
     
 }
 
 
-@media screen (max-width: 1200px;) {
-    
-}
-
-
-@media screen (max-width: 1600px;) {
-    
-}
-
-
-@media screen (max-width: 1900px;) {
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
     
 }

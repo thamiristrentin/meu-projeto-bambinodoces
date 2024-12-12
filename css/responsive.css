@@ -1,44 +1,557 @@
-@media screen (max-width: 480px;) {
+@media screen and (max-width: 480px) {
     #homesection,
     #sobresection,
     #contatosection {
-    max-width: 350px;
+        max-width: 350px;
     }
     
+    .elipse {
+        padding: 3rem 3rem 1.5rem 3rem;
+    }
+
     .elipse img {
-        width: 20em;
+        max-width: 15em;
+    }
+
+    nav li {
+        word-spacing: 0.6rem;
+    }
+
+    li a {
+        font-size: 1.2rem;
     }
 
     .home {
         flex-direction: column;
     }
 
-    .texto-1, .texto-2 {
+    .home {
+        padding-top: 8em;
+        gap: 14em;
+    }
+
+    .imagens-home img {
+        border: solid 5px #B0829B;
+    }
+
+    #doces-G {
+        width: 13em;
+        height: 13em;
+        top: -5em;
+    }
+    
+    #doces-M {
+        width: 8.75em;
+        height: 8.75em;
+        left: 12em;
+    }
+    
+    #doces-P {
+        width: 5.31em;
+        height: 5.31em;
+        top: 5.8em;
+        left: 8em;
+    }
+
+    .texto-home {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #bambino-doces {
+        font-size: 2rem;
+    }
+
+    .descubra {
+        justify-content: center;
+    }
+
+    #descubra {
+        font-size: 1.8rem;
+    }
+
+    .texto-home img {
+        width: 5rem;
+    }
+
+    .sobre p {
+        width: 23rem;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .texto-1 {
+        padding-top: 8rem;
+        gap: 3rem;
+        flex-direction: column-reverse;
+    }
+
+    .texto-2 {
+        padding-top: 6rem;
+        gap: 3rem;
         flex-direction: column;
+    }
+
+    .texto-1 img {
+        max-width: 18rem;
+    }
+    
+    .texto-2 img {
+        max-width: 18rem;
+    }
+
+    .contato {
+        padding: 8rem 0rem;
+    }
+
+    .contato p {
+        font-size: 2rem;
+    }
+
+    .botoes {
+        padding-top: 3.5rem;
+        gap: 2rem;
+    }
+
+    .footer {
+        text-align: center;
     }
 }
 
 
-@media screen (max-width: 768px;) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    #homesection,
+    #sobresection,
+    #contatosection {
+        max-width: 481px;
+    }
     
+    .elipse {
+        padding: 3rem 3rem 1.5rem 3rem;
+    }
+
+    .elipse img {
+        max-width: 18em;
+    }
+
+    nav li {
+        word-spacing: 0.6rem;
+    }
+
+    li a {
+        font-size: 1.4rem;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .home {
+        padding-top: 8em;
+        gap: 22em;
+    }
+
+    .imagens-home img {
+        border: solid 7px #B0829B;
+    }
+
+    #doces-G {
+        width: 18em;
+        height: 18em;
+        top: -5em;
+    }
+    
+    #doces-M {
+        width: 13.75em;
+        height: 13.75em;
+        left: 14em;
+    }
+    
+    #doces-P {
+        width: 10.31em;
+        height: 10.31em;
+        top: 8em;
+        left: 9em;
+    }
+
+    .texto-home {
+        font-size: 1.9rem;
+        text-align: center;
+    }
+
+    #bambino-doces {
+        font-size: 2.2rem;
+    }
+
+    .descubra {
+        justify-content: center;
+    }
+
+    #descubra {
+        font-size: 2rem;
+    }
+
+    .texto-home img {
+        width: 5rem;
+    }
+
+    .sobre p {
+        width: 30rem;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .texto-1 {
+        padding-top: 8rem;
+        gap: 3rem;
+        flex-direction: column-reverse;
+    }
+
+    .texto-2 {
+        padding-top: 6rem;
+        gap: 3rem;
+        flex-direction: column;
+    }
+
+    .texto-1 img {
+        max-width: 21rem;
+    }
+    
+    .texto-2 img {
+        max-width: 18rem;
+    }
+
+    .contato {
+        padding: 8rem 0rem;
+    }
+
+    .contato p {
+        font-size: 2.6rem;
+    }
+
+    .botoes {
+        padding-top: 3.5rem;
+        gap: 3rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
 }
 
 
-@media screen (max-width: 992px;) {
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    #homesection,
+    #sobresection,
+    #contatosection {
+        max-width: 769px;
+    }
     
+    .elipse {
+        padding: 3rem 3rem 1.5rem 3rem;
+    }
+
+    .elipse img {
+        max-width: 13rem;
+    }
+
+    nav li {
+        word-spacing: 0.6rem;
+    }
+
+    li a {
+        font-size: 1.4rem;
+    }
+
+    .home {
+        padding-top: 5em;
+        gap: 20em;
+    }
+
+    .imagens-home img {
+        border: solid 7px #B0829B;
+    }
+
+    #doces-G {
+        width: 12em;
+        height: 12em;
+        top: -3em;
+    }
+    
+    #doces-M {
+        width: 8.75em;
+        height: 8.75em;
+        left: 10em;
+    }
+    
+    #doces-P {
+        width: 7.31em;
+        height: 7.31em;
+        top: 6em;
+        left: 7em;
+    }
+
+    .texto-home {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #bambino-doces {
+        font-size: 1.6rem;
+    }
+
+    .descubra {
+        justify-content: center;
+    }
+
+    #descubra {
+        font-size: 1.6rem;
+    }
+
+    .texto-home img {
+        width: 4rem;
+    }
+
+    .sobre p {
+        width: 30rem;
+        font-size: 1.6rem;
+    }
+
+    .texto-1 {
+        padding-top: 8rem;
+        gap: 2rem;
+    }
+
+    .texto-2 {
+        padding-top: 6rem;
+        gap: 2rem;
+    }
+
+    .texto-1 img {
+        max-width: 16rem;
+    }
+    
+    .texto-2 img {
+        max-width: 13rem;
+    }
+
+    .contato {
+        padding: 7rem 0rem;
+    }
+
+    .contato p {
+        font-size: 2.2rem;
+    }
+
+    .botoes {
+        padding-top: 3.5rem;
+        gap: 3rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
 }
 
 
-@media screen (max-width: 1200px;) {
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    #homesection,
+    #sobresection,
+    #contatosection {
+        max-width: 993px;
+    }
     
+    .elipse {
+        padding: 3rem 3rem 1.5rem 3rem;
+    }
+
+    .elipse img {
+        max-width: 18rem;
+    }
+
+    nav li {
+        word-spacing: 0.6rem;
+    }
+
+    li a {
+        font-size: 1.4rem;
+    }
+
+    .home {
+        padding-top: 5em;
+        gap: 29em;
+    }
+
+    .imagens-home img {
+        border: solid 7px #B0829B;
+    }
+
+    #doces-G {
+        width: 15em;
+        height: 15em;
+        top: -3em;
+    }
+    
+    #doces-M {
+        width: 11.75em;
+        height: 11.75em;
+        left: 10em;
+    }
+    
+    #doces-P {
+        width: 7.31em;
+        height: 7.31em;
+        top: 8em;
+        left: 7em;
+    }
+
+    .texto-home {
+        font-size: 1.8rem;
+    }
+
+    #bambino-doces {
+        font-size: 1.6rem;
+    }
+
+    .descubra {
+        justify-content: center;
+    }
+
+    #descubra {
+        font-size: 1.6rem;
+    }
+
+    .texto-home img {
+        width: 4rem;
+    }
+
+    .sobre p {
+        width: 100%;
+        font-size: 1.9rem;
+    }
+
+    .texto-1 {
+        padding-top: 8rem;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .texto-2 {
+        padding-top: 3rem;
+        gap: 3rem;
+        justify-content: center;
+    }
+
+    .texto-1 img {
+        max-width: 18rem;
+    }
+    
+    .texto-2 img {
+        max-width: 16rem;
+    }
+
+    .contato {
+        padding: 7rem 0rem;
+    }
+
+    .contato p {
+        font-size: 2.4rem;
+    }
+
+    .botoes {
+        padding-top: 3.5rem;
+        gap: 3rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
 }
 
 
-@media screen (max-width: 1600px;) {
-    
-}
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+    #homesection,
+    #sobresection,
+    #contatosection {
+        max-width: 1201px;
+    }
 
+    .elipse img {
+        max-width: 22rem;
+    }
 
-@media screen (max-width: 1900px;) {
+    nav li {
+        word-spacing: 1.2rem;
+    }
+
+    li a {
+        font-size: 1.4rem;
+    }
+
+    .home {
+        padding-top: 5em;
+        gap: 38em;
+    }
+
+    #doces-G {
+        top: -4em;
+    }
     
+    #doces-M {
+        left: 15em;
+    }
+    
+    #doces-P {
+        top: 13em;
+        left: 10em;
+    }
+
+    .texto-home {
+        font-size: 2.3rem;
+    }
+
+    #bambino-doces {
+        font-size: 2.5rem;
+    }
+
+    .descubra {
+        justify-content: center;
+    }
+
+    #descubra {
+        font-size: 2.5rem;
+    }
+
+    .texto-home img {
+        width: 6rem;
+    }
+
+    .sobre p {
+        font-size: 2.2rem;
+    }
+
+    .texto-1 {
+        padding-top: 12rem;
+        gap: 5rem;
+        justify-content: center;
+    }
+
+    .texto-2 {
+        padding-top: 3rem;
+        gap: 5rem;
+        justify-content: center;
+    }
+
+    .contato {
+        padding: 10rem 2rem;
+    }
+
+    .contato p {
+        font-size: 2.9rem;
+    }
+
+    .botoes {
+        padding-top: 3.5rem;
+        gap: 4rem;
+    }
 }
