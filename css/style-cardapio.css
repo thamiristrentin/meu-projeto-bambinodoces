@@ -113,21 +113,30 @@ main {
     padding: 3.75rem 3.56rem;
     gap: 3.75em;
     background-color: #b0829bee;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 50;
     opacity: 0;
-
-
     transition: opacity 0.5s ease;
     pointer-events: none;
+}
+
+.fechar {
+    position: absolute;
+    right: 0.6em;
+    top: -0.2em;
+    font: 3em "UbuntuSans-Light", sans-serif;
+    color: #2e1f16;
+}
+
+.fechar a {
+    text-decoration: none;
+    color: #2e1f16;
 }
 
 .doce-um:hover .overlay,
@@ -139,7 +148,7 @@ main {
 .doce-sete:hover .overlay,
 .doce-oito:hover .overlay {
     opacity: 1;
-    pointer-events: none;
+    pointer-events: auto;
 }
 
 .img {

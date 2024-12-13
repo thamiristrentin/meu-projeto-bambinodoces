@@ -1,10 +1,17 @@
 @media screen and (max-width: 480px) {
-    #homesection,
-    #sobresection,
-    #contatosection {
+    main {
+        max-width: 100%;
         padding: 0rem 2rem;
     }
-    
+
+    header {
+        padding: 0rem 1rem;
+    }
+
+    .topo {
+        position: absolute;
+    }
+
     .elipse {
         padding: 1.4rem 1rem 1rem 1rem;
     }
@@ -19,11 +26,86 @@
     }
 
     nav ul {
-        gap: 1em;
+        gap: 1.1rem;
     }
 
     li a {
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    #cardapio {
+        padding: 0rem 10rem;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        padding-top: 3rem;
+        padding-bottom: 7em;
+        gap: 1.5em;
+    }
+
+    .aponte {
+        right: 50%;
+        transform: translate(50%);
+        margin-top: 2em;
+        padding-right: 5em;
+    }
+    
+    .aponte h1 {
+        font-size: 1.2em;
+    }
+
+    .aponte img {
+        width: 3.5rem;
+    }
+
+    .doce-um,
+    .doce-dois,
+    .doce-tres,
+    .doce-quatro,
+    .doce-cinco,
+    .doce-seis,
+    .doce-sete,
+    .doce-oito {
+        min-width: 9em;
+        border-width: 4px;
+    }
+
+    .overlay {
+        padding: 3.5rem 2.5rem;
+        gap: 0em;
+        flex-direction: column;
+        transform: translate(-50%, -50%);
+    }
+
+    .img {
+        max-height: 14rem;
+        width: 21rem;
+    }
+
+    .texto-overlay {
+        max-width: 19rem;
+        height: 18rem;
+        padding: 1.4em 1em 1em 1em;
+    }
+
+    .texto-overlay p {
+        padding-top: 0.5rem;
+    }
+
+    .doce-um:hover .overlay,
+    .doce-dois:hover .overlay,
+    .doce-tres:hover .overlay,
+    .doce-quatro:hover .overlay,
+    .doce-cinco:hover .overlay,
+    .doce-seis:hover .overlay,
+    .doce-sete:hover .overlay,
+    .doce-oito:hover .overlay {
+        pointer-events: auto;
+    }
+
+    .fechar a:target {
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.5s ease, visibility 0.5s ease;
     }
 }
 
