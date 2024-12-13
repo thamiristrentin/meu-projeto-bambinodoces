@@ -1,22 +1,22 @@
 *{margin: 0; padding: 0;}
 
 @font-face {
-    font-family: UbuntuSans-ExtraBold;
+    font-family: "UbuntuSans-ExtraBold";
     src: url("../fontes/UbuntuSans-ExtraBold.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: UbuntuSans-Medium;
+    font-family: "UbuntuSans-Medium";
     src: url("../fontes/UbuntuSans-Medium.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: UbuntuSans-Thin;
+    font-family: "UbuntuSans-Thin";
     src: url("../fontes/UbuntuSans-Thin.ttf") format('truetype');
 }
 
 @font-face {
-    font-family: UbuntuSans-Light;
+    font-family: "UbuntuSans-Light";
     src: url("../fontes/UbuntuSans-Light.ttf") format('truetype');
 }
 

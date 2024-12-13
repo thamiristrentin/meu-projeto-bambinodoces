@@ -38,7 +38,7 @@ nav li {
 li a {
     color: #B0829B;
     text-decoration-line: none;
-    font: 1.5em UbuntuSans-ExtraBold, sans-serif;
+    font: 1.5em "UbuntuSans-ExtraBold", sans-serif;
 }
 
 .elipse {
@@ -70,7 +70,7 @@ main {
 }
 
 .aponte h1 {
-    font: 1.5em UbuntuSans-ExtraBold, sans-serif;
+    font: 1.5em "UbuntuSans-ExtraBold", sans-serif;
     color: #fff;
 }
 
@@ -156,18 +156,18 @@ main {
 }
 
 .texto-overlay h1 {
-    font: 2em UbuntuSans-ExtraBold, sans-serif;
+    font: 2em "UbuntuSans-ExtraBold", sans-serif;
     color: #54392A;
 }
 
 .texto-overlay p {
-    font: 1.5em UbuntuSans-Light, sans-serif;
+    font: 1.5em "UbuntuSans-Light", sans-serif;
     color: #54392A;
     padding-top: 1.62em;
 }
 
 .footer {
-    font: 1.12em UbuntuSans-Medium, sans-serif;
+    font: 1.12em "UbuntuSans-Medium", sans-serif;
     color: #2e1f16;
     background-color: #B0829B;
     max-width: 100%;
