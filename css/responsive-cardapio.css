@@ -20,32 +20,34 @@
         max-width: 6em;
     }
 
+    .elipsemenu {
+        gap: 4%;
+    }
+
     .menu {
         margin: 0 auto;
-        padding-top: 3em;
+        padding-top: 2.5em;
     }
 
     nav ul {
-        gap: 1.1rem;
+        gap: 0.8rem;
     }
 
     li a {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     #cardapio {
-        padding: 0rem 10rem;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        padding-top: 3rem;
-        padding-bottom: 7em;
+        padding: 0rem 0.5rem;
+        padding-top: 2rem;
+        padding-bottom: 4em;
         gap: 1.5em;
     }
 
     .aponte {
         right: 50%;
         transform: translate(50%);
-        margin-top: 2em;
+        margin-top: 2.5em;
         padding-right: 5em;
     }
     
@@ -65,7 +67,8 @@
     .doce-seis,
     .doce-sete,
     .doce-oito {
-        min-width: 9em;
+        max-width: 8em;
+        min-width: 8em;
         border-width: 4px;
     }
 
@@ -96,6 +99,13 @@
         font-size: 1.3em;
     }
 
+    .footer {
+        gap: 2em;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1em 1em;
+    }
+
     .doce-um:hover .overlay,
     .doce-dois:hover .overlay,
     .doce-tres:hover .overlay,
@@ -114,7 +124,7 @@
 
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    body {
+    main, header {
         padding: 0em 7em;
     }
 
@@ -144,25 +154,24 @@
     }
 
     #cardapio {
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        padding-top: 9rem;
+        padding-top: 3rem;
         padding-bottom: 7em;
-        gap: 1rem;
-        margin-right: 0;
+        gap: 2rem;
     }
 
     .aponte {
-        margin-top: 2em;
-        padding-right: 5em;
+        margin-top: 4em;
+        padding-right: 6em;
+        right: 50%;
+        transform: translate(50%);
     }
     
     .aponte h1 {
-        font-size: 1.4em;
+        font-size: 1.7em;
     }
 
     .aponte img {
-        width: 3.5rem;
+        width: 4.5rem;
     }
 
     .doce-um,
@@ -217,11 +226,127 @@
     .fechar {
         visibility: visible;
     }
+
+    .footer {
+        width: 100%;
+        padding: 1.7em 0em;
+        flex-direction: column;
+        gap: 1em;
+    }
 }
 
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
+    main, header {
+        padding: 0em 6.96em;
+    }
+
+    .topo {
+        position: absolute;
+    }
+
+    .elipse {
+        padding: 1.4rem 1rem 1rem 1rem;
+    }
     
+    .elipse img {
+        max-width: 14rem;
+    }
+
+    .menu {
+        margin: 0 auto;
+        padding-top: 3em;
+    }
+
+    nav ul {
+        gap: 2rem;
+    }
+
+    li a {
+        font-size: 1.4rem;
+    }
+
+    #cardapio {
+        padding-top: 3rem;
+        padding-bottom: 7em;
+        gap: 1.6rem;
+    }
+
+    .aponte {
+        margin-top: 3em;
+        padding-right: 6em;
+        right: 50%;
+        transform: translate(50%);
+    }
+    
+    .aponte h1 {
+        font-size: 1.7em;
+    }
+
+    .aponte img {
+        width: 4.5rem;
+    }
+
+    .doce-um,
+    .doce-dois,
+    .doce-tres,
+    .doce-quatro,
+    .doce-cinco,
+    .doce-seis,
+    .doce-sete,
+    .doce-oito {
+        max-width: 11rem;
+        min-width: 11rem;
+    }
+
+    .overlay {
+        padding: 3.5rem 2.5rem;
+        gap: 0em;
+        transform: translate(-50%, -50%);
+        margin-top: 1em;
+    }
+
+    .img {
+        max-height: 13em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texto-overlay {
+        max-height: 10.6em;
+        padding: 1.4em 2em 1em 2em;
+    }
+
+    .texto-overlay h1 {
+        font-size: 1.4em;
+    }
+
+    .texto-overlay p {
+        padding-top: 0.5rem;
+        font-size: 1.1em;
+    }
+
+    .doce-um:hover .overlay,
+    .doce-dois:hover .overlay,
+    .doce-tres:hover .overlay,
+    .doce-quatro:hover .overlay,
+    .doce-cinco:hover .overlay,
+    .doce-seis:hover .overlay,
+    .doce-sete:hover .overlay,
+    .doce-oito:hover .overlay {
+        pointer-events: auto;
+    }
+
+    .fechar {
+        visibility: visible;
+    }
+
+    .footer {
+        width: 100%;
+        padding: 1.7em 0em;
+        flex-direction: column;
+        gap: 1em;
+    } 
 }
 
 
