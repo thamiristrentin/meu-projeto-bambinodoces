@@ -82,13 +82,18 @@
     }
 
     .texto-overlay {
-        max-width: 19rem;
+        max-width: 17rem;
         height: 18rem;
-        padding: 1.4em 1em 1em 1em;
+        padding: 1.4em 2em 1em 2em;
+    }
+
+    .texto-overlay h1 {
+        font-size: 1.8em;
     }
 
     .texto-overlay p {
         padding-top: 0.5rem;
+        font-size: 1.3em;
     }
 
     .doce-um:hover .overlay,
@@ -102,16 +107,116 @@
         pointer-events: auto;
     }
 
-    .fechar a:target {
-        opacity: 0;
-        visibility: hidden;
-        transition: opacity 0.5s ease, visibility 0.5s ease;
+    .fechar {
+        visibility: visible;
     }
 }
 
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        padding: 0em 7em;
+    }
+
+    .topo {
+        position: absolute;
+    }
+
+    .elipse {
+        padding: 1.4rem 1rem 1rem 1rem;
+    }
     
+    .elipse img {
+        max-width: 12em;
+    }
+
+    .menu {
+        margin: 0 auto;
+        padding-top: 4em;
+    }
+
+    nav ul {
+        gap: 1.3rem;
+    }
+
+    li a {
+        font-size: 1.4rem;
+    }
+
+    #cardapio {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        padding-top: 9rem;
+        padding-bottom: 7em;
+        gap: 1rem;
+        margin-right: 0;
+    }
+
+    .aponte {
+        margin-top: 2em;
+        padding-right: 5em;
+    }
+    
+    .aponte h1 {
+        font-size: 1.4em;
+    }
+
+    .aponte img {
+        width: 3.5rem;
+    }
+
+    .doce-um,
+    .doce-dois,
+    .doce-tres,
+    .doce-quatro,
+    .doce-cinco,
+    .doce-seis,
+    .doce-sete,
+    .doce-oito {
+        border-width: 4px;
+    }
+
+    .overlay {
+        padding: 3.5rem 2.5rem;
+        gap: 0em;
+        flex-direction: column;
+        transform: translate(-50%, -50%);
+    }
+
+    .img {
+        height: auto;
+        width: 21rem;
+    }
+
+    .texto-overlay {
+        max-width: 17rem;
+        height: 18rem;
+        padding: 1.4em 2em 1em 2em;
+    }
+
+    .texto-overlay h1 {
+        font-size: 1.8em;
+    }
+
+    .texto-overlay p {
+        padding-top: 0.5rem;
+        font-size: 1.3em;
+    }
+
+    .doce-um:hover .overlay,
+    .doce-dois:hover .overlay,
+    .doce-tres:hover .overlay,
+    .doce-quatro:hover .overlay,
+    .doce-cinco:hover .overlay,
+    .doce-seis:hover .overlay,
+    .doce-sete:hover .overlay,
+    .doce-oito:hover .overlay {
+        pointer-events: auto;
+    }
+
+    .fechar {
+        visibility: visible;
+    }
 }
 
 
